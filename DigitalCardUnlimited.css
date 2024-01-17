@@ -3,12 +3,12 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.heather
+.title
 {
-    cursor: pointer;
+    cursor: text;
     text-align: center;
     font-size: 40px;
-    font-family:'Azeret Mono', monospace;
+    font-family:'Outfit', sans-serif;
 
 }
 
@@ -32,14 +32,7 @@ body {
     border: none;
 }
 
-.card-num {
-    position: absolute;
-    top: 85px;
-    left: 30%;
-    font-size: 25px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+
 
 .card
 {
@@ -61,101 +54,14 @@ body {
     border: none;
 }
 
-.website-address
+.cardname
 {
     position: absolute;
-    top: 15px;
-    left: 15%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.first-line
-{
-    cursor: pointer;
-    background-color: rgb(78, 78, 78);
-    position: absolute;
-    width: 500px;
-    top: 46px;
-    height: 40px;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border: none;
-}
-
-.date
-{
-    position: absolute;
-    top: 110px;
-    left: 20%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.code
-{
-    position: absolute;
-    top: 110px;
-    left: 45%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.nameoncard
-{
-    position: absolute;
-    top: 135px;
-    left: 26.5%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.second-line
-{
-    cursor: pointer;
-    background-color: rgb(78, 78, 78);
-    position: absolute;
-    width: 150px;
-    top: 170px;
-    height: 25px;
-    left: 23.5%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border: none;
-}
-
-.usandcanada
-{
-    position: absolute;
-    margin-right: -10%;
-    font-size: 12px;
-    top: 200px;
-    left: 80%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.collect
-{
-    position: absolute;
-    margin-right: -20%;
-    font-size: 12px;
-    top: 219px;
-    left: 77.6%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.cash
-{
-    position: absolute;
-    margin-right: -20%;
-    font-size: 17px;
-    top: 248px;
-    left: 78.8%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    left: 10%;
+    top: 20%;
+    font-size: 20px;
+    font-family:'Outfit', sans-serif;
+    text-shadow: 1px 1px 1px black;
 }
 
 .box
@@ -167,4 +73,16 @@ body {
     transition: 2s;
     opacity: 100%;
     box-shadow: 2px 2px 100px;
+}
+
+.logo
+{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 70%;
+    left: 79%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    
 }
