@@ -61,7 +61,6 @@ body {
     top: 20%;
     font-size: 20px;
     font-family:'Outfit', sans-serif;
-    text-shadow: 1px 1px 1px black;
 }
 
 .box
@@ -78,11 +77,38 @@ body {
 .logo
 {
     position: absolute;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     top: 70%;
-    left: 79%;
+    left: 83%;
     height: 40px;
     width: 40px;
     border: none;
+    border-top-left-radius: 900%;
+    border-bottom-right-radius: 300%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    
+}
+
+.cardnum
+{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    font-family:'Outfit', sans-serif;
+}
+
+.username
+{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 20px;
+    font-family:'Outfit', sans-serif;
+}
+
+.sign
+{
     
 }
