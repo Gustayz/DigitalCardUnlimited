@@ -43,6 +43,7 @@ body {
 
 .card
 {
+    opacity: 20%;
     cursor: pointer;
     overflow: hidden;
     margin: 0;
@@ -163,5 +164,7 @@ body {
 }
 
 .card:hover{
+    transition: 2s;
+    opacity: 100%;
     box-shadow: 2px 2px 100px;
 }
